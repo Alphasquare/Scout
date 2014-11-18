@@ -1,0 +1,8 @@
+{
+	"signin_title": "Sign In",
+	"signin_form_email": "Email Address",
+	"signin_form_password": "Password",
+	"signin_form_button": "Sign In",
+	"signin_form_response_1": "Insert an email address/password to sign in.",
+	"signin_form_response_2": "Email address/password incorrect."
+}

@@ -1,0 +1,99 @@
+/**
+ * Scout - A free and open source CMS for musicians!
+ *
+ * Author: Giuseppe Spataro <https://github.com/Lowseling>
+ * License: The MIT license <https://github.com/Lowseling/Scout/LICENSE.md>
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+html,
+body {
+	margin: 0;
+}
+
+html {
+	background: #f7f7f7;
+}
+
+body {
+	font: 14px "Open Sans";
+	color: #474747;
+}
+
+.container {
+	width: 500px;
+	min-width: 500px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.container .header {
+	margin-bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.container .header .round {
+	background: #dd4c26;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container .header .round i {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.container .content {
+	background: #ffffff;
+	padding: 15px;
+}
+
+.container .content .response.error {
+	background: #e53935;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.container .content form .form-row {
+	margin-bottom: 10px;
+}
+
+.container .content form .form-row.buttons {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.container .content form .form-row input,
+.container .content form .form-row button {
+	outline: none;
+	font: 14px "Open Sans";
+	color: #474747;
+}
+
+.container .content form .form-row input[type='email'],
+.container .content form .form-row input[type='password'] {
+	background: #ffffff;
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #dedede;
+	box-sizing: border-box;
+}
+
+.container .content form .form-row button[type='submit'] {
+	background: #70B661;
+	padding: 7px 15px;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+	text-transform: uppercase;
+}

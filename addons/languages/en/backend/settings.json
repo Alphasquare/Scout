@@ -1,0 +1,14 @@
+{
+	"settings_title": "Settings",
+	"settings_form_site_name": "Site Name",
+	"settings_form_site_slogan": "Site Slogan",
+	"settings_form_site_url": "Site URL",
+	"settings_form_site_url_tip": "Do not insert final slash!",
+	"settings_form_site_lang": "Site Language",
+	"settings_form_site_theme": "Site Theme",
+	"settings_form_site_timezone": "Site Timezone",
+	"settings_form_button": "Update Settings",
+	"settings_form_cancel": "Cancel",
+	"settings_form_response_1": "All the fields are required.",
+	"settings_form_response_2": "Settings updated successfully!"
+}

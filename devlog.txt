@@ -1,0 +1,54 @@
+=============================================================================
+
+-- LEGEND
+
++ Added
+- Removed
+* Fixed
+/ Changed
+
+=============================================================================
+
+------------------------------ 17 November 2014 ------------------------------
+
++ [BACKEND] Started working on multi-user support
+
+------------------------------ 15 November 2014 ------------------------------
+
+* [BACKEND] Settings page doesn't save settings
+/ [BACKEND] Changed UI colors from blue/white to orange/black
+/ [BACKEND] Changed logs order
+
+------------------------------ 14 November 2014 ------------------------------
+
++ [BACKEND] Created logs page
+* [BACKEND] Fixed logs multipage not working
+- [APP] Removed dog from my desk
+* [APP] Form response doesn't work correctly
+
+------------------------------ 13 November 2014 ------------------------------
+
++ [BACKEND] Started working on the UI
++ [BACKEND] Created settings page
++ [BACKEND] Added sign in page
++ [APP] Added an ini parser to the Config class to generate configuration files
+* [APP] Language files doesn't accept spaces on file names
+
+------------------------------ 12 November 2014 ------------------------------
+
+* [APP] Biomass class fail to load view
+* [APP] Biomass class cause an infinite loop
++ [APP] Written 'Database, Language, Logs, User' classes
+
+------------------------------ 11 November 2014 ------------------------------
+
+* [APP] Config class doesn't load files
+* [APP] Router class doesn't load the correct page
++ [APP] Written 'Session, Form, Biomass, Date' classes
+
+------------------------------ 10 November 2014 ------------------------------
+
++ [APP] Choosen the definitive directory structure
++ [APP] Choosen the definitive code standard
++ [APP] Added filp/whoops error handler
++ [APP] Written 'Config, Router' classes

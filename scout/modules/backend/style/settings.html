@@ -1,0 +1,60 @@
+@partial 'header';
+			<div class="container">
+				<div class="box">
+					<div class="head">
+						<span class="title">{!lang.settings_title}</span>
+					</div>
+					<div class="body">
+						{!form.response}
+						<form action="#" method="post">
+							<div class="form-row">
+								<label for="site_name">{!lang.settings_form_site_name}</label>
+								<div class="input">
+									<input type="text" name="site_name" id="site_name" value="@if form.site_name:{!form.site_name}:else:{!config.site_name}:end;" />
+								</div>
+							</div>
+							<div class="form-row">
+								<label for="site_slogan">{!lang.settings_form_site_slogan}</label>
+								<div class="input">
+									<input type="text" name="site_slogan" id="site_slogan" value="@if form.site_slogan:{!form.site_slogan}:else:{!config.site_slogan}:end;" />
+								</div>
+							</div>
+							<div class="form-row hint--bottom" data-hint="{!lang.settings_form_site_url_tip}">
+								<label for="site_url">{!lang.settings_form_site_url}</label>
+								<div class="input">
+									<input type="text" name="site_url" id="site_url" value="@if form.site_url:{!form.site_url}:else:{!config.site_url}:end;" />
+								</div>
+							</div>
+							<div class="form-row">
+								<label>{!lang.settings_form_site_lang}</label>
+								<div class="input">
+									<select name="site_lang">
+										@list languages:<option value="{!list:language.id}"{!list:language.active}>{!list:language.id}</option>:end;
+									</select>
+								</div>
+							</div>
+							<div class="form-row">
+								<label>{!lang.settings_form_site_theme}</label>
+								<div class="input">
+									<select name="site_theme">
+										@list themes:<option value="{!list:theme.id}"{!list:theme.active}>{!list:theme.id}</option>:end;
+									</select>
+								</div>
+							</div>
+							<div class="form-row">
+								<label>{!lang.settings_form_site_timezone}</label>
+								<div class="input">
+									<select name="site_timezone">
+										@list timezones:<option value="{!list:timezone.id}"{!list:timezone.active}>{!list:timezone.id}</option>:end;
+									</select>
+								</div>
+							</div>
+							<div class="form-row buttons">
+								<button type="submit" class="primary" name="update" value="true">{!lang.settings_form_button}</button>
+								<button type="button" onclick="window.location = '{!config.site_url}/dashboard';">{!lang.settings_form_cancel}</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+@partial 'footer';

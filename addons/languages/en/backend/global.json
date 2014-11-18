@@ -1,0 +1,14 @@
+{
+	"global_title": "Scout Admin CP",
+	"global_header_brand": "Scout CP",
+	"global_header_profile": "Profile",
+	"global_header_support": "Documentation",
+	"global_header_signout": "Sign Out",
+	"global_nav_index": "Dashboard",
+	"global_nav_music": "Albums & Tracks",
+	"global_nav_blog": "Blog",
+	"global_nav_events": "Events",
+	"global_nav_users": "Site Staff",
+	"global_nav_settings": "Settings",
+	"global_nav_logs": "Time Capsule"
+}
