@@ -46,7 +46,7 @@ if($action == "list") {
 
 	$biomass->addSnippet("@if page.next:(.*?):end;", function($m) use($resLimitStart, $db, $pageNum) {
 
-		$query = $db->query("SELECT COUNT(*) FROM prefix@logs");
+		$query = $db->query("SELECT COUNT(*) FROM prefix@users");
 		$query->execute();
 
 		if($resLimitStart+15 < $query->fetchColumn())
@@ -65,6 +65,46 @@ if($action == "list") {
 		"title" => "{$lang->users_title} - {$lang->global_title}",
 		"class" => "users"
 	]);
+}
+else if($action == "edit") {
+	if(isset($router->params[2])) {
+		$id = (int)$router->params[2];
+
+		$query = $db->query("SELECT COUNT(*) FROM prefix@users WHERE id = :id");
+		$query->execute([
+			"id" => $id
+		]);
+
+		if($query->fetchColumn() > 0) {
+
+		}
+		else {
+			$router->redirect("dashboard/users");
+		}
+	}
+	else {
+		$router->redirect("dashboard/users");
+	}
+}
+else if($action == "delete") {
+	if(isset($router->params[2])) {
+		$id = (int)$router->params[2];
+
+		$query = $db->query("SELECT COUNT(*) FROM prefix@users WHERE id = :id");
+		$query->execute([
+			"id" => $id
+		]);
+
+		if($query->fetchColumn() > 0) {
+
+		}
+		else {
+			$router->redirect("dashboard/users");
+		}
+	}
+	else {
+		$router->redirect("dashboard/users");
+	}
 }
 else {
 	$router->redirect("dashboard/404");

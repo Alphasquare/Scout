@@ -64,13 +64,43 @@ button {
 	text-transform: uppercase;
 }
 
-button.primary {
+button.primary,
+a.button.primary {
 	background: #2196f3;
 	color: #ffffff;
 }
 
-button.primary:hover {
+button.primary:hover,
+a.button.primary:hover {
 	background: #1565c0;
+}
+
+button.danger,
+a.button.danger {
+	background: #e74c3c;
+	color: #ffffff;
+}
+
+button.danger:hover,
+a.button.danger:hover {
+	background: #c0392b;
+}
+
+a.button {
+	background: #eeeeee;
+	padding: 5px 10px;
+	font-weight: 600;
+	color: #474747;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #e7e7e7;
+}
+
+a.button i {
+	margin-right: 3px;
 }
 
 .header {
@@ -169,6 +199,10 @@ button.primary:hover {
 .container .box .head .title {
 	font-weight: 600;
 	text-transform: uppercase;
+}
+
+.container .box .head .buttons {
+	float: right;
 }
 
 .container .box .body {

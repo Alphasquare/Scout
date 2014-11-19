@@ -1,8 +1,11 @@
 {
-	"users_title": "Users",
+	"users_title": "Site Staff",
+	"users_head_add": "Create user",
 	"users_table_head_name": "Name",
 	"users_table_head_email": "Email Address",
 	"users_table_head_actions": "Actions",
+	"users_table_actions_edit": "Edit",
+	"users_table_actions_delete": "Delete",
 	"users_pagination_next": "Next",
 	"users_pagination_prev": "Previous"
 }

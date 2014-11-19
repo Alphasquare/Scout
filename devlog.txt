@@ -9,6 +9,11 @@
 
 =============================================================================
 
+------------------------------ 18 November 2014 ------------------------------
+
++ [BACKEND] Created users list
+* [BACKEND] Users list doesn't work correctly
+
 ------------------------------ 17 November 2014 ------------------------------
 
 + [BACKEND] Started working on multi-user support
