@@ -95,7 +95,7 @@ a.button {
 	text-decoration: none;
 }
 
-a:hover {
+a.button:hover {
 	background: #e7e7e7;
 }
 
