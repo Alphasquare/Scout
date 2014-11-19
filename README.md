@@ -7,6 +7,8 @@ source PHP applications for all, but not for musicians?". So I started working o
 for only one person, for this reason I decided to publish it on github. I need support of the Github community to make
 my project bigger!
 
+[Follow me on AlphaSquare!](http://alphasquare.us/people/lowseling)
+
 ## About the first release
 
 I don't really know how much time I need to publish the first release, it depends on how much Github users help me
