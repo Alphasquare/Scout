@@ -9,6 +9,10 @@ my project bigger!
 
 [Follow me on AlphaSquare!](http://alphasquare.us/people/lowseling)
 
+## When the code will be updated?
+
+In january 2015 will be available the next code update, the first Scout beta!
+
 ## About the first release
 
 I don't really know how much time I need to publish the first release, it depends on how much Github users help me
